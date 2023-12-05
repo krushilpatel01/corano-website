@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header-hint {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.helper ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.header-hint p {
+    font-family: 'Lato', sans-serif;
+    padding-left: 20px;
+}
+
+.header-hint ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.header hr {
+    opacity: 10px;
+}
+
+.nav-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.nav-detail .logo {
+    width: 20%;
+}
+
+.nav-detail .menu {
+    width: 30%;
+}
+
+.nav-detail .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-detail .menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-detail .search-box {
+    width: 25%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-detail .search-box input {
+    width: 60%;
+    border-radius: 30px;
+    padding: 10px 0px;
+    text-indent: 10px;
+    background-color: antiquewhite;
+    border: none;
+    opacity: 0.7;
+}
+
+.nav-detail .healper-icon {
+    width: 25%;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+/* slider-main */
+.slider-main {
+    position: relative;
+}
+
+.swiper-slide .sllider-main-img {
+    width: 100%;
+}
+
+.banner-detail {
+    position: absolute;
+    z-index: 1;
+    top: 220px;
+    width: 630px;
+    margin: 0 auto;
+}
+
+.banner-detail h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-detail span {
+    font-size: 67px;
+}
+
+.banner-detail h5 {
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.banner-detail button {
+    width: 130px;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.banner-detail2 {
+    position: absolute;
+    z-index: 1;
+    top: 220px;
+    width: 630px;
+    margin: 0 auto;
+    left: 900px;
+}
+
+.banner-detail2 h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-detail2 span {
+    font-size: 67px;
+}
+
+.banner-detail2 h5 {
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.banner-detail2 button {
+    width: 130px;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* helper section */
+.helper-section {
+    margin: 40px 0px;
+}
+
+.helper-section hr {
+    margin-bottom: 40px;
+}
+
+.helper-section .ads {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+}
+
+.helper-section .ads span {
+    color: darkgoldenrod;
+
+}
+
+.four-content-helper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.four-content-helper .shipping {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.shipping .icon {
+    width: 20%;
+}
+
+.shipping .shipping-detail {
+    width: 80%;
+    font-family: 'Lato', sans-serif;
+    padding: 0px 10px;
+}
+
+.shipping-detail h2 {
+    font-size: 16px;
+}
+
+.shipping-detail h4 {
+    font-size: 16px;
+    margin: 10px 0px;
+    font-weight: 100;
+}
+
+/* four-big-ads-banner */
+.four-big-ads-banner {
+    width: 100%;
+}
+
+.big-ads-banner {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.ad1 {
+    max-width: 590px;
+    width: 100%;
+    background-image: url(jewellary/img1-top-corano1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding-right: 40px;
+    margin: 10px auto;
+}
+
+.ad1-detail {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.ad1-detail h3 {
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ad1-detail h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: right;
+    max-width: 128px;
+    margin-left: 460px; 
+    margin-top: 20px;   
+}
+.ad1-detail h4{
+    margin-top: 20px;
+}
+
+.ad2 {
+    max-width: 590px;
+    width: 100%;
+    background-image: url(jewellary/img2-top-corano1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding-right: 40px;
+    margin: 10px auto;
+}
+
+.ad2-detail {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.ad2-detail h3 {
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ad2-detail h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: right;
+    max-width: 330px;
+    margin-top: 20px;   
+    margin-left: 400px;
+}
+.ad2-detail h4{
+    margin-top: 20px;
+}
+
+.ad3 {
+    max-width: 590px;
+    width: 100%;
+    background-image: url(jewellary/img3-top-corano1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding-right: 40px;
+    margin: 10px auto;
+}
+
+.ad3-detail {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.ad3-detail h3 {
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ad3-detail h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: right;
+    max-width: 148px;
+    margin-left: 441px;
+    margin-top: 20px; 
+}
+.ad3-detail h4{
+    margin-top: 20px;
+}
+
+.ad4 {
+    max-width: 590px;
+    width: 100%;
+    background-image: url(jewellary/img4-top-corano1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding-right: 40px;
+    margin: 10px auto;
+}
+
+.ad4-detail {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.ad4-detail h3 {
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ad4-detail h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: right;
+    max-width: 128px;
+    margin-left: 459px; 
+    margin-top: 20px;   
+}
+.ad4-detail h4{
+    margin-top: 20px;
+}
+
+/* bracelates-section */
+.bracelates-section{
+    margin-top: 50px;
+}
+.title{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.title h2{
+    font-size: 30px;
+}
+.title h4{
+    font-size: 16px;
+    font-weight: 100;
+}
+.bracelates-list{
+    width: 100%;
+    margin: 10px auto;
+    font-family: 'Lato', sans-serif;
+}
+.bracelates-list ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.bracelates-list ul li{
+    margin: 0px 20px;
+    font-size: 17.5px;
+}
+
+.four-design-bracelates{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.four-design-bracelates .bracelates1{
+    width: 100%;
+    max-width: 250px;
+    margin: 20px 0px;
+}
+.bracelates1 .image{
+    overflow: hidden;
+}
+.bracelates1 .image img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+}
+.bracelates1 .image img:hover{
+    transition: all 1s ease-in-out;
+    scale: 1.2;
+}
+.bracelates1 .image-detail{
+    text-align: center;
+    margin: 10px 0px;
+}
+.bracelates1 .image-detail .itme-type{
+    font-size: 14.5px;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.6;
+    font-weight: 300;
+}   
+.bracelates1 .image-detail .item-name{
+    font-size: 16.5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;   
+    margin: 5px 0px;
+}
+.bracelates1 .image-detail .item-name:hover{
+    color: brown;
+}
+.bracelates1 .image-detail .price{
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;   
+    margin: 15px 0px;    
+    opacity: 0.8;
+}
+.price strike{
+    margin: 0px 10px;
+}
+
+/* title four */
+.title-detail{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.title-detail .title-1{
+    width: 100%;
+    max-width: 310px;
+    margin: 20px auto;
+    position: relative;
+}
+.title-1 .image{
+    overflow: hidden;
+}
+.title-1 .image img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+}
+.title-1 .image img:hover{
+    transition: all 1s ease-in-out;
+    scale: 1.050;
+}
+.title-1 .title1-tag{
+    position: absolute;
+    top: 310px;
+    left: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.title-1 .items-detail{
+    position: absolute;
+    top: 335px;
+    left: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
