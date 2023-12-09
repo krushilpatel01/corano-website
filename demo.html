@@ -11,7 +11,7 @@
             max-width: 250px;
             margin: 20px 0px;
             position: relative;
-            cursor: pointer;
+            /* cursor: pointer; */
         }
 
         .bracelates1 .image {
@@ -33,7 +33,7 @@
             position: absolute;
             top: 10px;
             right: 10px;
-            visibility: hidden;
+            /* visibility: hidden; */
         }
 
         .onhover .heart {
@@ -62,6 +62,8 @@
 
         .add-cart {
             width: 100%;
+            /* opacity: 0; */
+
         }
 
         .add-cart button {
@@ -73,17 +75,16 @@
             position: absolute;
             top: 200px;
             left: 50px;
-            /* visibility: hidden; */
-
+            cursor: pointer;
 
         }
 
-        .bracelates1 .image img :hover >.onhover {
+        .bracelates1 .image img :hover>.onhover {
             visibility: visible;
         }
 
-        .bracelates1 :hover > .add-cart button {
-            visibility: hidden;
+        .bracelates1 .image img:hover>.add-cart {
+            opacity: 100%;
         }
 
         .bracelates1 .image-detail {
@@ -126,7 +127,9 @@
 <body>
     <div class="demo">
         <div class="bracelates1">
-            <div class="image"><img src="jewellary/1 (11).jpg" alt="Diamond band ring" srcset=""></div>
+            <div class="image"><img src="jewellary/1 (11).jpg" alt="Diamond band ring" srcset="">
+                <div class="add-cart"><button type="submit">Add To Cart</button></div>
+            </div>
             <div class="image-detail">
                 <h3 class="itme-type">Brooches, Flatware</h3>
                 <h3 class="item-name">Diamond Band Ring</h3>
@@ -140,7 +143,6 @@
                 <div class="search"><span class="iconify" data-icon="carbon:search" data-width="20"
                         data-height="20"></span></div>
             </div>
-            <div class="add-cart"><button type="submit">Add To Cart</button></div>
         </div>
     </div>
 </body>
