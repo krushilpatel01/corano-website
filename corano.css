@@ -458,14 +458,40 @@ nav{
     scale: 1.2;
 }
 
-.bracelates1 .image .onhover {
+.bracelates1 .image .onhover .heart  {
     position: absolute;
     top: 10px;
     right: -50px;
     cursor: pointer;
-    transition: all 1s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    text-align: center;
+    line-height: 10px;
 }
-.bracelates1 .image:hover>.onhover {
+.bracelates1 .image:hover>.onhover .heart {
+    right: 15px;
+}
+.bracelates1 .image .onhover .restart  {
+    position: absolute;
+    top: 60px;
+    right: -50px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    text-align: center;
+    line-height: 10px;
+}
+.bracelates1 .image:hover>.onhover .restart {
+    right: 15px;
+}
+.bracelates1 .image .onhover .search  {
+    position: absolute;
+    top: 110px;
+    right: -50px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    text-align: center;
+    line-height: 10px;
+}
+.bracelates1 .image:hover>.onhover .search {
     right: 15px;
 }
 
@@ -511,7 +537,7 @@ nav{
     background-color: white;
     border-radius: 10px;
     border: none;
-
+    text-align: center;
     cursor: pointer;
     opacity: 100;
 
@@ -733,13 +759,13 @@ nav{
 
 .design-2 .d-fp {
     width: 100%;
-    max-width: 300px;
+    max-width: 265px;
     margin: 20px auto;
 }
 
 .design-2 .d-bs {
     width: 100%;
-    max-width: 300px;
+    max-width: 265px;
     margin: 20px auto;
 }
 
@@ -962,3 +988,10 @@ footer {
 .follow-us .icons {
     margin-top: 20px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    body .header-hint{
+        display: none;
+    }
+  }
