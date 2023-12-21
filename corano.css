@@ -38,8 +38,9 @@
     font-size: 16px;
 }
 
-.header hr {
+hr {
     opacity: 10px;
+    margin: 0px 0px;
 }
 
 nav{
@@ -110,7 +111,7 @@ nav{
     position: absolute;
     z-index: 0;
     top: 220px;
-    width: 630px;
+    max-width: 530px;
     margin: 0 auto;
 }
 
@@ -138,12 +139,17 @@ nav{
     color: white;
     border: none;
 }
+.banner-detail button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 
 .banner-detail2 {
     position: absolute;
     z-index: 1;
     top: 220px;
-    width: 630px;
+    max-width: 530px;
     margin: 0 auto;
     left: 900px;
 }
@@ -171,6 +177,11 @@ nav{
     background-color: black;
     color: white;
     border: none;
+}
+.banner-detail2 button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 /* helper section */
@@ -425,6 +436,7 @@ nav{
     max-width: 270px;
     margin: 20px 0px;
     position: relative;
+    overflow: hidden;
 }
 
 .bracelates1 .image {
@@ -441,13 +453,20 @@ nav{
     transition: all 1s ease-in-out;
     scale: 1.2;
 }
+.bracelates1 .image img:hover {
+    transition: all 1s ease-in-out;
+    scale: 1.2;
+}
 
-.bracelates1 .onhover {
+.bracelates1 .image .onhover {
     position: absolute;
     top: 10px;
-    right: 10px;
-    opacity: 0;
+    right: -50px;
     cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.bracelates1 .image:hover>.onhover {
+    right: 15px;
 }
 
 .onhover .heart {
@@ -474,8 +493,16 @@ nav{
     margin: 10px 10px;
 }
 
-.bracelates1 .add-cart {
+.bracelates1 .image .add-cart {
     width: 100%;
+    position: absolute;
+    transition: all 1s ease-in-out;
+    top: 200px;
+    left: -200px;
+}
+.bracelates1 .image:hover>.add-cart{
+    top: 200px;
+    left: 50px;
 }
 
 .add-cart button {
@@ -484,11 +511,9 @@ nav{
     background-color: white;
     border-radius: 10px;
     border: none;
-    position: absolute;
-    top: 200px;
-    left: 50px;
+
     cursor: pointer;
-    opacity: 0;
+    opacity: 100;
 
 
 }
@@ -856,7 +881,7 @@ footer {
 .logo {
     width: 100%;
     max-width: 250px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .logo .images {
@@ -874,7 +899,7 @@ footer {
     width: 100%;
     max-width: 255px;
     margin-top: 10px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .contact-us h2 {
@@ -898,7 +923,7 @@ footer {
     width: 100%;
     max-width: 250px;
     margin-top: 10px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .information h2 {
@@ -927,7 +952,7 @@ footer {
     width: 100%;
     max-width: 250px;
     margin-top: 10px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .follow-us h2 {
