@@ -43,9 +43,10 @@ hr {
     margin: 0px 0px;
 }
 
-nav{
+nav {
     z-index: 3;
 }
+
 .nav-detail {
     display: flex;
     justify-content: space-between;
@@ -139,7 +140,8 @@ nav{
     color: white;
     border: none;
 }
-.banner-detail button:hover{
+
+.banner-detail button:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
@@ -178,7 +180,8 @@ nav{
     color: white;
     border: none;
 }
-.banner-detail2 button:hover{
+
+.banner-detail2 button:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
@@ -453,12 +456,13 @@ nav{
     transition: all 1s ease-in-out;
     scale: 1.2;
 }
+
 .bracelates1 .image img:hover {
     transition: all 1s ease-in-out;
     scale: 1.2;
 }
 
-.bracelates1 .image .onhover .heart  {
+.bracelates1 .image .onhover .heart {
     position: absolute;
     top: 10px;
     right: -50px;
@@ -467,10 +471,12 @@ nav{
     text-align: center;
     line-height: 10px;
 }
+
 .bracelates1 .image:hover>.onhover .heart {
     right: 15px;
 }
-.bracelates1 .image .onhover .restart  {
+
+.bracelates1 .image .onhover .restart {
     position: absolute;
     top: 60px;
     right: -50px;
@@ -479,10 +485,12 @@ nav{
     text-align: center;
     line-height: 10px;
 }
+
 .bracelates1 .image:hover>.onhover .restart {
     right: 15px;
 }
-.bracelates1 .image .onhover .search  {
+
+.bracelates1 .image .onhover .search {
     position: absolute;
     top: 110px;
     right: -50px;
@@ -491,6 +499,7 @@ nav{
     text-align: center;
     line-height: 10px;
 }
+
 .bracelates1 .image:hover>.onhover .search {
     right: 15px;
 }
@@ -526,7 +535,8 @@ nav{
     top: 200px;
     left: -200px;
 }
-.bracelates1 .image:hover>.add-cart{
+
+.bracelates1 .image:hover>.add-cart {
     top: 200px;
     left: 50px;
 }
@@ -821,7 +831,7 @@ nav{
 
 /* blogs-detail */
 .blogs-detail {
-    margin:50px 10px 0px 10px;
+    margin: 50px 10px 0px 10px;
 }
 
 .blogs {
@@ -887,7 +897,8 @@ nav{
     /* justify-content: space-evenly; */
     flex-wrap: wrap;
 }
-.brands .brand1{
+
+.brands .brand1 {
     margin: 0 auto;
 }
 
@@ -991,7 +1002,135 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
-    body .header-hint{
+    body .header-hint {
         display: none;
     }
-  }
+}
+
+
+/* shop page */
+.page-name {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.page-name h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.page-name h5 a {
+    margin: 0px 7px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.page-name h5 .active-page {
+    color: brown;
+}
+
+.shop-page-detail {
+    margin: 50px 0px;
+}
+
+.shop-page-list {
+    display: flex;
+}
+
+.categories {
+    max-width: 350px;
+    width: 100%;
+    padding: 0px 30px 0px 0px;
+}
+.categories-detail{
+    margin-bottom: 30px;
+}
+.categories-detail h2{
+    font-size: 22px;
+}
+.price1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories-items .quentity {
+    opacity: 0.5;
+    margin-left: 10px;
+}
+
+.categories-items ul {
+    list-style: none;
+    text-indent: -30px;
+}
+
+.categories-items ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.categories-items ul li {
+    margin: 5px 0px;
+}
+
+.categories-items ul li a:hover {
+    color: bisque;
+}
+
+.categories-detail button{
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 10px 0px;
+    background-color: transparent;
+}
+.categories-detail button:hover{
+    background-color:chocolate;
+    color: white;
+    border: 1px solid chocolate;
+}
+.products {
+    width: 70%;
+    max-width: 950px;
+}
+.categories-banner{
+    width: 100%;
+    overflow: hidden;
+}
+.categories-banner img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+}
+.categories-banner img:hover{
+    transform: scale(1.1);
+}
+
+
+.products .sorting {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.sorting span {
+    margin: 0px 20px;
+}
+
+.sorting .result {
+    margin: 0px;
+}
+
+.sorting-list span {
+    margin: 0px 3px;
+}
+
+.sorting-list select {
+    border: none;
+}
