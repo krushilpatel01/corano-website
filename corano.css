@@ -441,6 +441,14 @@ nav {
     position: relative;
     overflow: hidden;
 }
+@media only screen and(max-width:500px){
+    .four-design-bracelates .bracelates1{
+        max-width: 270px;
+        width: 100%;
+    }
+    
+}
+
 
 .bracelates1 .image {
     overflow: hidden;
@@ -1038,12 +1046,20 @@ footer {
 
 .shop-page-list {
     display: flex;
+    flex-wrap: wrap-reverse ;
 }
 
 .categories {
     max-width: 350px;
     width: 100%;
     padding: 0px 30px 0px 0px;
+}
+@media only screen and (max-width:768px) {
+    .categories{
+        width: 100%;
+        max-width: 768px;
+    }
+    
 }
 .categories-detail{
     margin-bottom: 30px;
@@ -1095,8 +1111,16 @@ footer {
     width: 70%;
     max-width: 950px;
 }
+@media only screen and (max-width:768px) {
+    .products{
+        width: 100%;
+        max-width: 768px;
+    }
+    
+}
 .categories-banner{
     width: 100%;
+    max-width: 300px;
     overflow: hidden;
 }
 .categories-banner img{
@@ -1133,4 +1157,96 @@ footer {
 
 .sorting-list select {
     border: none;
+}
+
+/* blog page */
+.products2 {
+    width: 70%;
+    max-width: 950px;
+}
+@media only screen and (max-width:768px) {
+    .products2{
+        width: 100%;
+        max-width: 768px;
+    }
+    
+}
+.products2 .blog{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+.products2 .blog .image{
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+}
+.products2 .blog .image img{
+    width: 100%;
+    height: 100%;
+}
+.products2 .blog .image .extra-btn{
+    position: absolute;
+    top: 135px;
+    max-width: 300px;
+    left: 25px;
+}
+.products2 .blog .image .extra-btn button{
+    background-color: white;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin: 5px 0px;
+    font-size: 15px;
+}
+.products2 .blog-detail{
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+}
+@media only screen and (max-width){
+    .products2 .blog{
+        flex-wrap: wrap;
+    }
+    .products2 .blog-detail{
+        max-width: 200px;
+        width: 100%;
+    } 
+    
+}
+
+.products2 .blog-detail h3{
+    font-size: 27px;
+    margin: 10px 0px;
+}
+
+.products2 .blog-detail h4{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+.products2 .blog-detail h4 span{
+    color: burlywood;
+}
+
+.products2 .blog-detail p{
+    font-size: 15px;
+}
+
+.products2 button{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: chocolate;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.products2 button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
