@@ -271,20 +271,24 @@ nav {
 }
 
 .ad1-detail h3 {
+    font-size: 18px;
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
+    color: gray;
 }
 
 .ad1-detail h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    font-weight: 600;
     text-align: right;
     max-width: 128px;
-    margin-left: 460px;
+    margin-left: 425px;
     margin-top: 20px;
 }
 
 .ad1-detail h4 {
+    font-size: 16px;
     margin-top: 20px;
 }
 
@@ -305,20 +309,24 @@ nav {
 }
 
 .ad2-detail h3 {
+    font-size: 18px;
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
+    color: gray;
 }
 
 .ad2-detail h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    font-weight: 600;
     text-align: right;
     max-width: 330px;
     margin-top: 20px;
-    margin-left: 400px;
+    margin-left: 350px;
 }
 
 .ad2-detail h4 {
+    font-size: 16px;
     margin-top: 20px;
 }
 
@@ -339,20 +347,24 @@ nav {
 }
 
 .ad3-detail h3 {
+    font-size: 18px;
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
+    color: gray;
 }
 
 .ad3-detail h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    font-weight: 600;
     text-align: right;
     max-width: 148px;
-    margin-left: 441px;
+    margin-left: 400px;
     margin-top: 20px;
 }
 
 .ad3-detail h4 {
+    font-size: 16px;
     margin-top: 20px;
 }
 
@@ -373,20 +385,24 @@ nav {
 }
 
 .ad4-detail h3 {
+    font-size: 18px;
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
+    color: gray;
 }
 
 .ad4-detail h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    font-weight: 600;
     text-align: right;
     max-width: 128px;
-    margin-left: 459px;
+    margin-left: 420px;
     margin-top: 20px;
 }
 
 .ad4-detail h4 {
+    font-size: 16px;
     margin-top: 20px;
 }
 
@@ -441,12 +457,13 @@ nav {
     position: relative;
     overflow: hidden;
 }
-@media only screen and(max-width:500px){
-    .four-design-bracelates .bracelates1{
+
+@media only screen and(max-width:500px) {
+    .four-design-bracelates .bracelates1 {
         max-width: 270px;
         width: 100%;
     }
-    
+
 }
 
 
@@ -842,7 +859,7 @@ nav {
     margin: 50px 10px 0px 10px;
 }
 
-.blogs {
+.blog {
     width: 100%;
 }
 
@@ -1046,27 +1063,23 @@ footer {
 
 .shop-page-list {
     display: flex;
-    flex-wrap: wrap-reverse ;
 }
 
-.categories {
-    max-width: 350px;
+.categories01 {
+    /* max-width: 350px; */
     width: 100%;
     padding: 0px 30px 0px 0px;
 }
-@media only screen and (max-width:768px) {
-    .categories{
-        width: 100%;
-        max-width: 768px;
-    }
-    
-}
-.categories-detail{
+
+
+.categories-detail {
     margin-bottom: 30px;
 }
-.categories-detail h2{
+
+.categories-detail h2 {
     font-size: 22px;
 }
+
 .price1 {
     display: flex;
     justify-content: space-between;
@@ -1095,40 +1108,45 @@ footer {
     color: bisque;
 }
 
-.categories-detail button{
+.categories-detail button {
     padding: 5px 20px;
     border-radius: 15px;
     border: 1px solid black;
     margin: 10px 0px;
     background-color: transparent;
 }
-.categories-detail button:hover{
-    background-color:chocolate;
+
+.categories-detail button:hover {
+    background-color: chocolate;
     color: white;
     border: 1px solid chocolate;
 }
-.products {
+
+/* .products {
     width: 70%;
     max-width: 950px;
-}
+} */
+
 @media only screen and (max-width:768px) {
-    .products{
+    .products {
         width: 100%;
         max-width: 768px;
     }
-    
 }
-.categories-banner{
+
+.categories-banner {
     width: 100%;
     max-width: 300px;
     overflow: hidden;
 }
-.categories-banner img{
+
+.categories-banner img {
     width: 100%;
     height: 100%;
     transition: all 1s ease-in-out;
 }
-.categories-banner img:hover{
+
+.categories-banner img:hover {
     transform: scale(1.1);
 }
 
@@ -1160,41 +1178,52 @@ footer {
 }
 
 /* blog page */
+.shop-page-list2 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .products2 {
-    width: 70%;
-    max-width: 950px;
+    width: 100%;
+    /* max-width: 1000px; */
 }
-@media only screen and (max-width:768px) {
-    .products2{
-        width: 100%;
-        max-width: 768px;
-    }
-    
+
+.shop-page-list2 .categories {
+    max-width: 260px;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
 }
-.products2 .blog{
+
+.products2 .blog {
     width: 100%;
     display: flex;
     align-items: center;
     position: relative;
     flex-wrap: wrap;
+    margin: 20px 0px;
 
 }
-.products2 .blog .image{
+
+.products2 .blog .image {
     width: 100%;
-    max-width: 400px;
-    padding: 10px;
+    /* max-width: 400px; */
 }
-.products2 .blog .image img{
+
+.products2 .blog .image img {
     width: 100%;
     height: 100%;
 }
-.products2 .blog .image .extra-btn{
+
+.products2 .blog .image .extra-btn {
     position: absolute;
-    top: 135px;
-    max-width: 300px;
-    left: 25px;
+    top: 150px;
+    max-width: 350px;
+    left: 10px;
 }
-.products2 .blog .image .extra-btn button{
+
+.products2 .blog .image .extra-btn button {
     background-color: white;
     color: black;
     padding: 3px 10px;
@@ -1202,41 +1231,33 @@ footer {
     margin: 5px 0px;
     font-size: 15px;
 }
-.products2 .blog-detail{
+
+.products2 .blog-detail {
     width: 100%;
-    max-width: 400px;
+    /* max-width: 600px; */
     padding: 15px;
 }
-@media only screen and (max-width){
-    .products2 .blog{
-        flex-wrap: wrap;
-    }
-    .products2 .blog-detail{
-        max-width: 200px;
-        width: 100%;
-    } 
-    
-}
 
-.products2 .blog-detail h3{
+.products2 .blog-detail h3 {
     font-size: 27px;
     margin: 10px 0px;
 }
 
-.products2 .blog-detail h4{
+.products2 .blog-detail h4 {
     font-size: 15px;
     font-weight: 400;
     margin: 15px 0px;
 }
-.products2 .blog-detail h4 span{
+
+.products2 .blog-detail h4 span {
     color: burlywood;
 }
 
-.products2 .blog-detail p{
+.products2 .blog-detail p {
     font-size: 15px;
 }
 
-.products2 button{
+.products2 button {
     padding: 5px 15px;
     border-radius: 20px;
     border: 1px solid transparent;
@@ -1245,8 +1266,115 @@ footer {
     font-size: 18px;
     margin-top: 5px;
 }
-.products2 button:hover{
+
+.products2 button:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
+}
+
+
+/* contact-page */
+.contact-detail {
+    width: 100%;
+}
+
+.contact-us-form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+}
+
+.contact-us-form .contact-us2 {
+    width: 100%;
+    /* max-width: 250px; */
+    /* margin-right: 35px; */
+}
+
+.contact-us2 hr {
+    margin-bottom: 30px;
+}
+
+.contact-us2 .address {
+    width: 100%;
+}
+
+.contact-us2 .address .icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-us2 .address .icon h2 {
+    font-size: 22px;
+    margin-left: 25px;
+}
+
+.contact-us2 .address .icon-detail {
+    width: 100%;
+}
+
+.contact-detail .address .icon-detail h4 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.contact-us-form .your-message {
+    width: 100%;
+    /* max-width: 1000px; */
+}
+
+.main-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.your-message {
+    /* padding-left: 50px; */
+}
+
+.your-message .registation-form {
+    width: 100%;
+}
+
+.registation-form label {
+    width: 100%;
+}
+
+.registation-form input {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-indent: 20px;
+}
+
+.registation-form textarea {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-indent: 20px;
+}
+
+.your-message button {
+    padding: 7px 40px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background-color: chocolate;
+    color: white;
+    margin-top: 30px;
+}
+
+.your-message button:hover {
+    border: 1px solid chocolate;
+    background-color: transparent;
+    color: chocolate;
+}
+
+.map iframe {
+    width: 100%;
 }

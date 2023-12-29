@@ -1,0 +1,159 @@
+/* home page */
+
+/* @media only screen and (min-width:1024px) {
+    .ad1{
+        width: 100%;
+        max-width: 400px;
+    }    
+    .ad2{
+        width: 100%;
+        max-width: 400px;
+    }    
+} */
+
+/* shop page */
+@media only screen and (min-width:1024px){
+    .categories01{
+        width: 100%;
+        max-width: 300px;
+    }
+    .products {
+        width: 100%;
+        max-width: 1000px;
+    }
+}
+@media only screen and (max-width:768px){
+    .shop-page-list{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+}
+
+/* blog page */
+@media only screen and (min-width:1024px) {
+    .products2 {
+        width: 100%;
+        max-width: 950px;
+    }
+
+    .products2 .blog {
+        width: 100%;
+    }
+
+    .products2 .blog .image {
+        width: 100%;
+        max-width: 900px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .products2 {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .products2 .blog {
+        width: 100%;
+    }
+
+    .products2 .blog .image {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .products2 .blog-detail {
+        width: 100%;
+        max-width: 290px;
+        padding: 15px;
+        margin-left: 10px;
+    }
+
+    .categories {
+        width: 100%;
+        max-width: 150px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .products2 {
+        width: 100%;
+        max-width: 690px;
+    }
+
+    .products2 .blog {
+        width: 100%;
+    }
+
+    .products2 .blog .image {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .products2 .blog-detail {
+        width: 100%;
+        max-width: 330px;
+        padding: 15px;
+        margin-left: 10px;
+    }
+}
+
+
+/* 
+==========================================
+ */
+/* contact  page */
+@media only screen and (max-width:430px) {
+    .contact-us2 {
+        width: 100%;
+        margin: 0px 10px;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .contact-us2 {
+        width: 100%;
+        margin: 0px 30px 0px 20px;
+        max-width: 220px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .contact-us2 {
+        width: 100%;
+        margin: 0px 30px 0px 10px;
+        max-width: 230px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .contact-us2 {
+        width: 100%;
+        margin: 0px 30px 0px 10px;
+        max-width: 230px;
+    }
+}
+
+
+/* for contact page : your mesage detail */
+@media only screen and (max-width:768px) {
+    .your-message {
+        width: 100%;
+        max-width: 410px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .your-message {
+        width: 100%;
+        max-width: 650px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .your-message {
+        width: 100%;
+        max-width: 1000px;
+        /* background-color: antiquewhite; */
+    }
+}
